@@ -1,3 +1,23 @@
+index4.html
+F
+Tipo
+HTML
+Tamaño
+537 bytes
+Espacio usado
+537 bytes
+Ubicación
+git
+Propietario
+yo
+Modificado
+9 dic. 2019 por mí
+Abierto
+14:02 por mí
+Creado el
+9 dic. 2019 con Google Drive Web
+Añadir descripción
+Los lectores pueden descargar
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,11 +30,20 @@
           max-width: 100%;
           vertical-align: top;
         }
+	img#responsive{
+		display: none;
+	}
+	@media screen and (max-width: 768px){
+		img#responsive{
+			display: block;
+		}
+	}
     </style>
   </head>
   <body>
+    <img src="responsive.png" id="responsive">
     <img src="header.png">
     <img src="hero.png">
-    <img src="clasica.png">
+    <img src="acustica.png">
   </body>
 </html>
